@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!---- Created by Aman Pushkar Roy ---->
+<html>
+  <head>
+    <title>OTP validation</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <br />
+
+      <h1>OTP validation</h1>
+
+      <br />
+
+      <section>
+        <input
+          type="radio"
+          name="contact"
+          id="r1"
+          oninput="chooseo()"
+          checked
+        /><label for="r1">Mobile no.</label>&nbsp&nbsp&nbsp&nbsp
+
+        <input type="radio" name="contact" id="r2" oninput="chooset()" /><label
+          for="r2"
+          >Email</label
+        >
+
+        <br /><br />
+
+        <input
+          type="tel"
+          id="mob"
+          placeholder="Your mobile no....."
+          maxlength="10"
+        />
+
+        <input type="email" id="mail" placeholder="Your email id....." />
+
+        <br /><br />
+
+        <input type="button" id="subbtn" value="Get OTP" onclick="getotp()" />
+
+        <p id="timer"><span id="countdowntimer">60</span> seconds remaining</p>
+
+        <p id="resend" onclick="resend()">Resend OTP</p>
+
+        <br /><br />
+
+        <input type="tel" maxlength="6" placeholder="OTP.." id="otppoint" />
+
+        <br /><br />
+
+        <input type="button" id="otpbtn" value="Continue" onclick="confotp()" />
+
+        <br /><br />
+
+        <span id="msg"></span>
+      </section>
+
+      <br /><br />
+
+      <p id="copy">&copy;Copyright 2022<br />Created by Pushkar Roy</p>
+    </div>
+  </body>
+</html>

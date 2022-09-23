@@ -1,0 +1,166 @@
+/*------- <\> by Pushkar Roy-------*/
+
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family:Montserrat;
+}
+
+
+body {
+    
+}
+
+.container{
+    width:100%;
+    min-width:100vw;
+    height:100%;
+    min-height:100vh;
+    box-sizing:border-box ;
+}
+
+.container h1{
+    text-align:center ;
+    text-decoration:underline ;
+    color:Blueviolet;
+}
+
+.container section{
+    text-align:center ;
+    width:100%;
+    height:auto;
+    align-items:center ;
+    justify-content:center ;
+}
+
+.container section input[type="radio"] {
+    border:2px solid #909090;
+    outline:none ;
+}
+
+.container section label{
+    font-size:18px;
+    font-weight:700;
+    margin:10px 10px;
+    color:#505050;
+}
+
+.container section #mob, #mail{
+    padding:10px;
+    text-align:center ;
+    margin:auto;
+    left:0;
+    right:0;
+    font-size:20px;
+    font-weight:400;
+    outline:none ;
+    border:2px solid #909090;
+    border-radius:5px;
+    color:#606060;
+}
+
+
+.container section #subbtn{
+    padding:10px 60px;
+    text-align:center ;
+    margin:auto;
+    left:0;
+    right:0;
+    font-size:20px;
+    font-weight:600;
+    outline:none ;
+    border:2px solid #fefefe;
+    border-radius:5px;
+    background-color:#505050;
+    color:#fff;
+}
+
+.container section #timer{
+    color:green;
+    font-size:18px;
+    font-weight:500;
+}
+
+.container section #resend{
+    color:blue;
+    font-size:18px;
+    font-weight:500;
+}
+
+.container section #otppoint{
+    padding:10px;
+    text-align:center ;
+    margin:auto;
+    left:0;
+    right:0;
+    font-size:20px;
+    font-weight:400;
+    outline:none ;
+    border:2px solid #909090;
+    border-radius:5px;
+    color:blueviolet;
+}
+
+.container section #otpbtn{
+    padding:10px 60px;
+    text-align:center ;
+    margin:auto;
+    left:0;
+    right:0;
+    font-size:20px;
+    font-weight:600;
+    outline:none ;
+    border:2px solid #fefefe;
+    border-radius:5px;
+    background-color:#505050;
+    color:#fff;
+}
+
+.container section #msg{
+    color:green;
+    font-size:18px;
+    font-weight:500;
+}
+
+
+.container #copy{
+    text-align:center ;
+    font-size:15px;
+    font-weight:500;
+    padding:10px;
+}
+
+
+
+
+/*--------------------------------*/
+
+
+
+#mail{
+    display:none;
+}
+
+#resend{
+    display:none;
+}
+
+#timer{
+    display:none;
+}
+
+#otppoint{
+    display:none;
+}
+
+#otpbtn{
+    display:none;
+}
+
+
+
+/*-----------------------------------*/
+
+/*----------- End of the code ----------*/
